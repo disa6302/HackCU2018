@@ -8,7 +8,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_Port))
 filesize = int(sock.recv(1024))
 print ("File Size \n",filesize)
-with open('received_file','wb') as f:
+with open('received_file.jpg','wb') as f:
 	while (filesize>0):
 		print ("file opened")
 		data = sock.recv(1024)
