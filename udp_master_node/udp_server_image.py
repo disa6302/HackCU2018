@@ -12,7 +12,7 @@ sock.bind((UDP_IP, UDP_Port))
 i=0
 #data = sock.recv(1024)
 #if data == "M":
-for i in range(0,3):
+for i in range(0,30):
 	data = sock.recv(1024)
 	if(data == "M"):
 		filesize= int(sock.recv(1024))
