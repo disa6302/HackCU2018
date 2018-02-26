@@ -14,8 +14,8 @@ else:
 
 # put your keys in the header
 headers = {
-    "app_id": "bf894930",
-    "app_key": "e948eed7f57f4038b17a1f3c3f7f2d29"
+    "app_id": "ENTER HERE"
+    "app_key": "ENTER HERE"
 }
 
 payload = '{"image":"'+data+'"}'
